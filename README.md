@@ -12,25 +12,18 @@ https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
 * git checkout master
 * git pull origin master
 
-	créez toujours votre branche depuis la branche "develop"
+### Créez toujours votre branche depuis la branche "develop"
 
 * git checkout develop
 * git pull origin develop
 
 * git flow feature start MYFEATURE
 
- déplace sur la branche créée
-
- en fin de développement
- 
-* git push origin feature/MYFEATURE
-
-* git checkout develop
-* git pull origin develop
-* git checkout master
-* git pull origin master
+### Se déplacer sur la branche créée et implémenter
 
 * git checkout feature/MYFEATURE
+
+#### A la fin des implémentattions
 * git rebase develop
 
 	Gérer le rebase
