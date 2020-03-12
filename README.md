@@ -58,7 +58,7 @@ Cette commande supprime la branche et vous remet sur la branche develop
 
 
 
-### Démarrer la release de mise en production
+## Démarrer la release de mise en production
 
 Le numéro de release dépend du projet
 
@@ -89,7 +89,7 @@ Si Git râle, lancer la commande suivante:
 
 
 
-## Créer un hotfix
+### Créer un hotfix
 
 Exactement le même processus, sauf que c'est démarré de **master**
 
@@ -161,7 +161,7 @@ Déployer sur les serveurs de production
 
 
 
-## Serveurs de production
+### Serveurs de production
 
 	git pull origin master
 	git log
