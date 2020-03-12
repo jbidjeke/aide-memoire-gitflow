@@ -1,4 +1,4 @@
-# AIDE MEMOIRE GITFLOW
+# AIDE MEMOIRE GIT FLOW
 
 # Git flow, les features et les mises en prod
  
