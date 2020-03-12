@@ -68,7 +68,8 @@ Modifier le fichier contenant la version
 * git commit
  
 Si Vous avez une branche de travail (MYFEATURE)
-* git checkout MYFEATURE,  git rebase develop 
+* git checkout MYFEATURE 
+* git rebase develop 
 
 Revenez sur la release
 * git checkout v<numero de version incrémenté>
