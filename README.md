@@ -12,7 +12,7 @@ https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
 * git checkout master
 * git pull origin master
 
-### Créez toujours votre branche depuis la branche "develop"
+### Créer toujours votre branche depuis la branche "develop"
 
 * git checkout develop
 * git pull origin develop
@@ -59,19 +59,18 @@ Cette commande supprime la branche et vous remet sur la branche develop
 * git checkout master
 * git pull origin master
 
-Le numéro de release dépend du projet
+### Le numéro de release dépend du projet
 
 * git flow release start  v<numero de version incrémenté>
 
-Modifier le fichier contenant la version
+### Modifier les fichiers ainsi que la version
 * git add <fichiers modifiés> 
 * git commit
  
-Si Vous avez une branche de travail (MYFEATURE)
+####  Merger la branche de travail, s'il existe, sur la release
 * git checkout MYFEATURE 
 * git rebase develop 
 
-Revenez sur la release
 * git checkout v<numero de version incrémenté>
 * git merge MYFEATURE
 
@@ -86,7 +85,7 @@ Revenez sur la release
 
 * git push origin master --tags
 
-Si Git râle, lancer la commande suivante:
+### Si Git râle, lancer la commande suivante:
 
 * git push  -f origin master --tags
 
@@ -146,6 +145,6 @@ Summary of actions:
 
 ### Serveurs de production
 
-	git pull origin master
-	git log
-		Pour vérifier que tout est ok
+*git pull origin master
+*git log
+	Pour vérifier que tout est ok
