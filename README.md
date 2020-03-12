@@ -129,30 +129,7 @@ Summary of actions:
   
   
   
-  
-### Démarrer la release
-
-Le numéro de release dépend du projet
-
-* git flow release start  v<numero de version incrémenté>
-
-Modifier le fichier contenant la version
-
-* git add <fichiers modifiés> ou git merge MYFEATURE, la branche de travail
-* git commit
-
-* git flow release finish 'v<numero de version incrémenté>'
-
-* git push  -f origin master --tags	
-
-* git checkout develop
-* git merge master
-* git push origin develop
-
-Déployer sur les serveurs de production
-
-
-
+ 
 
 ### Serveurs de production
 
