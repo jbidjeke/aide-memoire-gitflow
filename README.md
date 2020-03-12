@@ -63,10 +63,16 @@ Le numéro de release dépend du projet
 
 * git flow release start  v<numero de version incrémenté>
 
-* Modifier le fichier contenant la version
-
-* git add <fichiers modifiés> ou git merge MYFEATURE, la branche de travail
+Modifier le fichier contenant la version
+* git add <fichiers modifiés> 
 * git commit
+ 
+Si Vous avez une branche de travail (MYFEATURE)
+* git checkout MYFEATURE,  git rebase develop 
+
+Revenez sur la release
+* git checkout v<numero de version incrémenté>
+* git merge MYFEATURE
 
 * git flow release finish 'v<numero de version incrémenté>'
 
