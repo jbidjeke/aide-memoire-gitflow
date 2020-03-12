@@ -75,21 +75,15 @@ Cette commande supprime la branche et vous remet sur la branche develop
 * git merge MYFEATURE
 
 * git flow release finish 'v<numero de version incrémenté>'
-
 * git push origin develop
 
 * git checkout master
-* git pull origin master
-
-* git merge develop
-
-* git push origin master --tags
+* git push origin master
 
 ### Si Git râle, lancer la commande suivante:
 
 * git push  -f origin master --tags
 
-* Déployer sur les serveurs de production
 
 
 
@@ -115,10 +109,7 @@ Exactement le même processus, sauf que c'est démarré de **master**
 Après correction 
 * git add <fichiers modifiés>
 * git commit
-
-	
 * git flow hotfix finish MYHOTFIX	
-
 Message
 ```txt
 Summary of actions:
@@ -127,17 +118,18 @@ Summary of actions:
 - Hotfix tag 'v4.7.9' has been back-merged into 'develop'
 - Hotfix branch 'hotfix/v4.7.9' has been locally deleted
 - You are now on branch 'develop'
-
 ```
-
 * git push origin develop
-* git checkout master
-* git push origin master
 
+* git checkout master
 * git status
 * git log
-
 	pour vérifier que vos modifications sont bien en premier
+* git push origin master
+
+
+
+
   
   
   
