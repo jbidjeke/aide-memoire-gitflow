@@ -53,6 +53,12 @@ Cette commande supprime la branche et vous remet sur la branche develop
 
 ## Démarrer la release de mise en production
 
+* git checkout develop
+* git pull origin develop
+
+* git checkout master
+* git pull origin master
+
 Le numéro de release dépend du projet
 
 * git flow release start  v<numero de version incrémenté>
