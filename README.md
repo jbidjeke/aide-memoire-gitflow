@@ -20,10 +20,12 @@ https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
 * git flow feature start MYFEATURE
 
 cas pratique :
-Switched to a new branch 'feature/voicematch-S11'
+git flow feature start voicematch-S11 
 
 Message
 ```txt
+Switched to a new branch 'feature/voicematch-S11'
+
 Summary of actions:
 - A new branch 'feature/voicematch-S11' was created, based on 'develop'
 - You are now on branch 'feature/voicematch-S11'
