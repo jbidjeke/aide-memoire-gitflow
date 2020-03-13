@@ -19,9 +19,19 @@ https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
 
 * git flow feature start MYFEATURE
 
-### Se déplacer sur la branche créée et implémenter
+cas pratique :
+Switched to a new branch 'feature/voicematch-S11'
 
-* git checkout feature/MYFEATURE
+Message
+```txt
+Summary of actions:
+- A new branch 'feature/voicematch-S11' was created, based on 'develop'
+- You are now on branch 'feature/voicematch-S11'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish voicematch-S11
+```
 
 ### A la fin des implémentattions
 * git rebase develop
